@@ -1,0 +1,60 @@
+/* Navbar */
+
+.navbar{
+    height: 85px;
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-nav{
+    flex-direction: row-reverse;
+}
+.navbar-nav li{
+    margin-right: 50px;
+}
+.navbar-nav a{
+    height: 85px;
+    text-decoration: none;
+    color: white;
+    padding-top: 40px;
+}
+
+button.btn-dl {
+    width: 46vh;
+    height: 6vh;
+    color: #FFF;
+    background-color: #1DB954;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.wrap {
+    height: 70vh;
+}
+.midpage {
+    text-align: center;
+    margin: 250px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+h4 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 17px;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    height: 70vh;
+
+}
